@@ -1,24 +1,26 @@
-import logo from "../images/logo.svg";
-import "../styles/App.scss";
 // import { Routes, Route } from 'react-router-dom';
+import "../styles/App.scss";
+import video from "../multimedia/trailer.mp4";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div>
+      <header className="header">
+        <p>Miriam Poveda</p>
+        <ul className="headerList">
+          <li>Sobre mí</li>
+          <li>Proyectos</li>
+          <li>Contacto</li>
+        </ul>
       </header>
+      <main>
+        <video playsInline autoPlay muted loop className="trailer">
+          <source src={video} type="video/mp4"></source>
+        </video>
+      </main>
+      <footer className="footer">
+        <p>Miriam Poveda ©2022</p>
+      </footer>
     </div>
   );
 }
