@@ -1,0 +1,15 @@
+.header {
+  position: absolute;
+  width: 100vw;
+  padding: 3vh 5vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.headerList {
+  display: flex;
+  list-style: none;
+  gap: 1.875rem;
+}

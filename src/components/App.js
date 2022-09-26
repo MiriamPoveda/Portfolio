@@ -1,27 +1,31 @@
-// import { Routes, Route } from 'react-router-dom';
-import "../styles/App.scss";
-import video from "../multimedia/trailer.mp4";
+import { Routes, Route } from "react-router-dom";
+/* Components */
+import Header from "./global/Header";
+import Main from "./global/Main";
+import Footer from "./global/Footer";
+import AboutMe from "../components/details/AboutMe";
+import Projects from "../components/details/Projects";
+import Contact from "../components/details/Contact";
 
 function App() {
   return (
-    <div>
-      <header className="header">
-        <p>Miriam Poveda</p>
-        <ul className="headerList">
-          <li>Sobre mí</li>
-          <li>Proyectos</li>
-          <li>Contacto</li>
-        </ul>
-      </header>
-      <main>
-        <video playsInline autoPlay muted loop className="trailer">
-          <source src={video} type="video/mp4"></source>
-        </video>
-      </main>
-      <footer className="footer">
-        <p>Miriam Poveda ©2022</p>
-      </footer>
-    </div>
+    <>
+      <Header />
+      <Routes>
+        <Route
+          path="/"
+          element={
+            <>
+              <Main />
+              <Footer />
+            </>
+          }
+        />
+        <Route path="/AboutMe" element={<AboutMe />} />
+        <Route path="/Projects" element={<Projects />} />
+        <Route path="/Contact" element={<Contact />} />
+      </Routes>
+    </>
   );
 }
 
