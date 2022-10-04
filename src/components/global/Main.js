@@ -1,5 +1,5 @@
 import "../../styles/global/Main.scss";
-import trailer from "../multimedia/trailer.mp4";
+import trailer from "../../multimedia/trailer.mp4";
 
 function Main() {
   return (

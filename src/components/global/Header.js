@@ -1,16 +1,17 @@
 import { Link } from "react-router-dom";
 import "../../styles/global/Header.scss";
+import home from "../../multimedia/home.png";
 
-function Footer() {
+function Header() {
   return (
     <header className="header">
       <p>
         <Link title="Inicio" to="/">
-          Miriam Poveda
+          <img src={home} alt="Inicio" className="header__headerHome" />
         </Link>
       </p>
       <nav>
-        <ul className="headerList">
+        <ul className="header__headerList">
           <li>
             <Link title="Sobre mí" to="/AboutMe">
               Sobre mí
@@ -32,4 +33,4 @@ function Footer() {
   );
 }
 
-export default Footer;
+export default Header;

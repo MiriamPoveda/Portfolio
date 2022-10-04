@@ -3,13 +3,23 @@
   width: 100vw;
   padding: 3vh 5vw;
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
   color: white;
-}
 
-.headerList {
-  display: flex;
-  list-style: none;
-  gap: 1.875rem;
+  &__headerHome {
+    width: 80vw;
+
+    @media all and (min-width: 768px) {
+      width: 30vw;
+    }
+  }
+
+  &__headerList {
+    display: flex;
+    list-style: none;
+    gap: 1.875rem;
+    margin-top: 1vh;
+  }
 }
