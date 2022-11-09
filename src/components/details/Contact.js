@@ -1,4 +1,5 @@
 /* Components */
+import MainDetails from "../global/MainDetails";
 import Footer from "../global/Footer";
 /* Styles */
 import "../../styles/details/Contact.scss";
@@ -9,7 +10,7 @@ function Contact() {
   return (
     <>
       <main className="contactMain">
-        <div>
+        <div className="contactMain__iconsMain">
           <a
             href="https://github.com/MiriamPoveda"
             title="GitHub"
@@ -48,6 +49,7 @@ function Contact() {
             CV!
           </p>
         </div>
+        <MainDetails />
       </main>
       <Footer />
     </>
