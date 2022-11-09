@@ -12,18 +12,18 @@ function Header() {
       </p>
       <nav>
         <ul className="header__headerList">
-          <li>
-            <Link title="Sobre mí" to="/AboutMe">
+          <li className="headerButtons">
+            <Link className="headerLinks" title="Sobre mí" to="/AboutMe">
               Sobre mí
             </Link>
           </li>
-          <li>
-            <Link title="Proyectos" to="/Projects">
+          <li className="headerButtons">
+            <Link className="headerLinks" title="Proyectos" to="/Projects">
               Proyectos
             </Link>
           </li>
-          <li>
-            <Link title="Contacto" to="/Contact">
+          <li className="headerButtons">
+            <Link className="headerLinks" title="Contacto" to="/Contact">
               Contacto
             </Link>
           </li>

@@ -1,3 +1,5 @@
+// Header + Complete List //
+
 .header {
   position: absolute;
   width: 100vw;
@@ -19,7 +21,33 @@
   &__headerList {
     display: flex;
     list-style: none;
-    gap: 1.875rem;
-    margin-top: 1vh;
+    gap: 1rem;
+    padding: 1rem 0;
   }
+}
+
+// List elements //
+
+.headerLinks {
+  color: #1fbaa3;
+  font-weight: 700;
+  font-size: 1.3em;
+  font-family: "Shadows Into Light";
+}
+
+.headerLinks:hover {
+  color: black;
+}
+
+.headerButtons {
+  margin: 0 0.5rem;
+  padding: 0 0.5rem;
+  background-color: #000000b5;
+  border-radius: 30%;
+}
+
+.headerButtons:hover {
+  background-color: #1fbaa3;
+  transform: scale(1.2);
+  border-radius: 30%;
 }
