@@ -1,3 +1,5 @@
+// Main //
+
 .contactMain {
   height: 100vh;
   display: flex;
@@ -6,18 +8,22 @@
   justify-content: center;
   text-align: center;
   padding: 0 3rem;
-  color: #1fbaa3;
+  color: $principal;
 
   &__iconsMain {
     padding-top: 3rem;
   }
 }
 
+// Icons //
+
 i {
-  color: #1fbaa3;
+  color: $principal;
   padding: 0.5rem 1rem;
   font-size: 4em;
 }
+
+// Icons Text //
 
 .textCV {
   font-size: 1.3em;

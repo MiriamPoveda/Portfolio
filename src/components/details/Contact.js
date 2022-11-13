@@ -1,8 +1,6 @@
 /* Components */
-import MainDetails from "../global/MainDetails";
+import MainDetails from "../specifics/MainDetails";
 import Footer from "../global/Footer";
-/* Styles */
-import "../../styles/details/Contact.scss";
 /* Multimedia */
 import CV from "../../multimedia/MiriamPoveda.pdf";
 
@@ -45,8 +43,8 @@ function Contact() {
             <i class="fa-solid fa-file"></i>
           </a>
           <p className="textCV">
-            ¡Haz click en los iconos para visitar los perfiles o descargar el
-            CV!
+            ¡Haz click en los iconos para visitar mis redes, mandarme un email o
+            descargar mi CV!
           </p>
         </div>
         <MainDetails />

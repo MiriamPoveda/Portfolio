@@ -1,11 +1,13 @@
 import { Routes, Route } from "react-router-dom";
 /* Components */
 import Header from "./global/Header";
-import Main from "./global/Main";
+import MainHome from "./specifics/MainHome";
 import Footer from "./global/Footer";
 import AboutMe from "../components/details/AboutMe";
 import Projects from "../components/details/Projects";
 import Contact from "../components/details/Contact";
+/* Styles */
+import "../styles/App.scss";
 
 function App() {
   return (
@@ -16,7 +18,7 @@ function App() {
           path="/"
           element={
             <>
-              <Main />
+              <MainHome />
               <Footer />
             </>
           }

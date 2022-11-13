@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import "../../styles/global/Header.scss";
+/* Multimedia */
 import home from "../../multimedia/home.png";
 
 function Header() {

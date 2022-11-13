@@ -1,4 +1,4 @@
-import "../../styles/global/Footer.scss";
+/* Multimedia */
 import logo from "../../multimedia/logo.png";
 
 function Footer() {

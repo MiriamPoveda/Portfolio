@@ -1,14 +1,12 @@
-/* Styles */
-import "../../styles/global/MainDetails.scss";
 /* Multimedia */
 import background from "../../multimedia/background.gif";
 
 function MainDetails() {
   return (
     <>
-      <div className="MainDetails">
+      <div className="mainDetails">
         <img
-          className="MainDetails__background"
+          className="mainDetails__background"
           src={background}
           alt="Fondo de pantalla"
         />

@@ -1,7 +1,5 @@
 /* Components */
 import Footer from "../global/Footer";
-/* Styles */
-import "../../styles/details/Projects.scss";
 
 function Projects() {
   return (

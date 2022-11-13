@@ -1,0 +1,96 @@
+// Main //
+
+.aboutMeMain {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 12rem 0;
+  font-family: $aboutMe;
+}
+
+// Division //
+
+.division {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  padding: 1rem 0;
+  margin-bottom: 1rem;
+
+  &__circle {
+    background-color: $consoleBase;
+    border-radius: 50%;
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+}
+
+// Image + Presentation + Title //
+
+.meInfo {
+  overflow-y: scroll;
+  margin: 1.2rem 1.5rem 0;
+  padding: 0 1rem;
+
+  &__mePhoto {
+    width: 78%;
+    border: $consoleBase dotted 0.2rem;
+    border-radius: 50%;
+    margin: 1rem 0;
+  }
+
+  &__meIntroduction {
+    color: $principal;
+    font-weight: 600;
+  }
+
+  &__meTitle {
+    background-color: $homeMenu;
+    width: 50%;
+    padding: 1rem;
+    border-radius: 30%;
+    color: $consoleBase;
+    font-size: 1.8em;
+    font-family: $homeLetters;
+  }
+}
+
+// Formation + Experience //
+
+.containerInfo {
+  color: $principal;
+  font-weight: 600;
+  margin-top: 2rem;
+  padding: 0.5rem;
+  background-color: $consoleBase;
+
+  &__containerList {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__containerSkills {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+// Scroll //
+
+/* Ancho de la barra */
+
+.meInfo::-webkit-scrollbar {
+  width: 1rem;
+}
+
+/* Color de la barra y bordes */
+
+.meInfo::-webkit-scrollbar-thumb {
+  background-color: $principal;
+  border-radius: 50%;
+  border: transparent;
+}

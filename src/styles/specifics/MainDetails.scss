@@ -1,5 +1,7 @@
-.MainDetails {
-  background-color: black;
+// Main + Background //
+
+.mainDetails {
+  background-color: $base;
   position: absolute;
   display: flex;
   justify-content: center;

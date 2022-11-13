@@ -1,3 +1,5 @@
+// Footer + Logo + Copyright Text //
+
 .footer {
   position: absolute;
   bottom: 3vh;
@@ -16,8 +18,8 @@
   }
 
   &__copyright {
-    color: #1fbaa3;
+    color: $principal;
     font-size: 1.2em;
-    font-family: "Shadows Into Light";
+    font-family: $homeLetters;
   }
 }

@@ -1,0 +1,31 @@
+// Core //
+
+@import "../styles/core/variables";
+
+// Components //
+
+// Global //
+
+@import "../styles/global/Header";
+@import "../styles/global/Footer";
+
+// Specifics //
+
+@import "../styles/specifics/MainHome";
+@import "../styles/specifics/MainDetails";
+
+// Details //
+
+@import "../styles/details/AboutMe";
+@import "../styles/details/Projects";
+@import "../styles/details/Contact";
+
+// General //
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+  text-decoration: none;
+}

@@ -1,9 +1,9 @@
-import "../../styles/global/Main.scss";
+/* Multimedia */
 import trailer from "../../multimedia/trailer.mp4";
 
-function Main() {
+function MainHome() {
   return (
-    <main>
+    <main className="main">
       <div className="presentation">
         <img
           className="presentation__textPresentation"
@@ -18,4 +18,4 @@ function Main() {
   );
 }
 
-export default Main;
+export default MainHome;
