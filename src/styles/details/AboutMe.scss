@@ -11,6 +11,15 @@
   font-family: $aboutMe;
 }
 
+// Full Screem Grid //
+
+.meGrid {
+  @media all and (min-width: 1000px) {
+    overflow-y: scroll;
+    margin: 2rem 0;
+  }
+}
+
 // Division //
 
 .division {
@@ -26,6 +35,10 @@
     width: 1.5rem;
     height: 1.5rem;
   }
+
+  @media all and (min-width: 1000px) {
+    display: none;
+  }
 }
 
 // Image + Presentation + Title //
@@ -35,16 +48,41 @@
   margin: 1.2rem 1.5rem 0;
   padding: 0 1rem;
 
+  @media all and (min-width: 1000px) {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    overflow-y: hidden;
+    margin: -3rem 0;
+    padding-top: 4rem;
+  }
+
   &__mePhoto {
     width: 78%;
     border: $consoleBase dotted 0.2rem;
     border-radius: 50%;
     margin: 1rem 0;
+
+    @media all and (min-width: 768px) {
+      width: 50%;
+    }
+
+    @media all and (min-width: 1000px) {
+      width: 45%;
+    }
   }
 
   &__meIntroduction {
     color: $principal;
     font-weight: 600;
+
+    @media all and (min-width: 768px) {
+      font-size: 1.5em;
+    }
+
+    @media all and (min-width: 768px) {
+      font-size: 1em;
+      padding: 0 2rem;
+    }
   }
 
   &__meTitle {
@@ -55,6 +93,14 @@
     color: $consoleBase;
     font-size: 1.8em;
     font-family: $homeLetters;
+
+    @media all and (min-width: 768px) {
+      font-size: 2.5em;
+    }
+
+    @media all and (min-width: 1000px) {
+      font-size: 1.8em;
+    }
   }
 }
 
@@ -67,15 +113,42 @@
   padding: 0.5rem;
   background-color: $consoleBase;
 
+  @media all and (min-width: 768px) {
+    margin: 2rem 8rem;
+  }
+
+  @media all and (min-width: 1000px) {
+    margin: 2rem 1rem;
+  }
+
   &__containerList {
     display: flex;
     justify-content: center;
     align-items: center;
+
+    @media all and (min-width: 768px) {
+      gap: 3em;
+    }
+
+    @media all and (min-width: 768px) {
+      gap: 1em;
+    }
   }
 
   &__containerSkills {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+  }
+}
+
+.skillsInfo {
+  @media all and (min-width: 768px) {
+    font-size: 1.5em;
+  }
+
+  @media all and (min-width: 1000px) {
+    font-size: 1em;
   }
 }
 
@@ -87,10 +160,19 @@
   width: 1rem;
 }
 
+.meGrid::-webkit-scrollbar {
+  width: 0.3rem;
+}
+
 /* Color de la barra y bordes */
 
 .meInfo::-webkit-scrollbar-thumb {
   background-color: $principal;
   border-radius: 50%;
+  border: transparent;
+}
+
+.meGrid::-webkit-scrollbar-thumb {
+  background-color: $principal;
   border: transparent;
 }
