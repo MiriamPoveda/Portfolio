@@ -1,3 +1,5 @@
+// Main + Projects Box //
+
 .projectsMain {
   height: 100vh;
   display: flex;
@@ -5,5 +7,74 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  color: white;
+
+  &__projectsBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 13rem;
+  }
+
+  &__projectsTitle {
+    background-color: $homeMenu;
+    width: 50%;
+    padding: 1rem;
+    border-radius: 30%;
+    color: $consoleBase;
+    font-size: 1.8em;
+    font-family: $homeLetters;
+  }
+}
+
+// Projects List + Images + Button //
+
+.projectsList {
+  display: flex;
+  gap: 2rem;
+  padding: 0 1rem;
+  height: 25%;
+  color: $principal;
+
+  &__projectsElement {
+    overflow-y: scroll;
+  }
+
+  &__projectsImages {
+    width: 90%;
+    border-radius: 20%;
+
+    @media all and (min-width: 768px) {
+      width: 68%;
+    }
+  }
+
+  &__projectsImages:hover {
+    padding: 0.5rem;
+    background-color: $consoleBase;
+    opacity: 50%;
+  }
+
+  &__projectsButton {
+    background-color: $principal;
+    font-family: $homeLetters;
+    border: none;
+    padding: 0.2rem;
+    border-radius: 20%;
+  }
+
+  &__projectsButton:hover {
+    background-color: $consoleBase;
+    transform: scale(1.2);
+  }
+}
+
+.projectsLinks {
+  color: $base;
+  @media all and (min-width: 768px) {
+    font-size: 2em;
+  }
+}
+
+.projectsLinks:hover {
+  color: $principal;
 }
