@@ -1,12 +1,21 @@
 /* Components */
+import MainDetails from "../specifics/MainDetails";
 import Footer from "../global/Footer";
 
 function Projects() {
   return (
     <>
-      <div>
-        <h2>PROYECTOS</h2>
-      </div>
+      <main className="projectsMain">
+        <div>
+          <div>
+            <div>GRUPALES</div>
+          </div>
+          <div>
+            <div>INDIVIDUALES</div>
+          </div>
+        </div>
+        <MainDetails />
+      </main>
       <Footer />
     </>
   );
