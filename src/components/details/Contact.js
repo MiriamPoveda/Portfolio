@@ -15,7 +15,7 @@ function Contact() {
             target="_blank"
             rel="noreferrer"
           >
-            <i class="fa-brands fa-github-alt"></i>
+            <i className="fa-brands fa-github-alt iconsEffectMain"></i>
           </a>
           <a
             href="https://es.linkedin.com/in/miriampoveda"
@@ -23,7 +23,7 @@ function Contact() {
             target="_blank"
             rel="noreferrer"
           >
-            <i className="fa-brands fa-linkedin-in"></i>
+            <i className="fa-brands fa-linkedin-in iconsEffectMain"></i>
           </a>
           <a
             href="mailto:mpoveda94@gmail.com"
@@ -31,7 +31,7 @@ function Contact() {
             target="_blank"
             rel="noreferrer"
           >
-            <i className="fa-solid fa-envelope"></i>
+            <i className="fa-solid fa-envelope iconsEffectMain"></i>
           </a>
           <a
             href={CV}
@@ -40,7 +40,7 @@ function Contact() {
             target="_blank"
             rel="noreferrer"
           >
-            <i class="fa-solid fa-file"></i>
+            <i className="fa-solid fa-file iconsEffectMain"></i>
           </a>
           <p className="textCV">
             ¡Haz click en los iconos para visitar mis redes, mandarme un email o

@@ -86,7 +86,7 @@ function AboutMe() {
                 </li>
                 <li>
                   <p className="skillsInfo">Filosofía Agile</p>
-                  <i class="fa-brands fa-think-peaks"></i>
+                  <i className="fa-brands fa-think-peaks"></i>
                   <p className="skillsInfo">Marco Scrum</p>
                 </li>
               </div>
