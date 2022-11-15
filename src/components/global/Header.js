@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 /* Multimedia */
-import home from "../../multimedia/home.png";
+import home from "../../multimedia/global/home.png";
 
 function Header() {
   return (

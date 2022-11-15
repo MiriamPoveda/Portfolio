@@ -2,19 +2,21 @@
 import MainDetails from "../specifics/MainDetails";
 import Footer from "../global/Footer";
 /* Multimedia */
-import fencoders from "../../multimedia/fencoders.jpg";
-import cards from "../../multimedia/cards.jpg";
-import refactored from "../../multimedia/refactored.jpg";
-import spaces from "../../multimedia/spaces.jpg";
-import cocktails from "../../multimedia/cocktails.jpg";
-import wow from "../../multimedia/wilson.jpg";
+import fencoders from "../../multimedia/projects/fencoders.jpg";
+import cards from "../../multimedia/projects/cards.jpg";
+import refactored from "../../multimedia/projects/refactored.jpg";
+import spaces from "../../multimedia/projects/spaces.jpg";
+import cocktails from "../../multimedia/projects/cocktails.jpg";
+import wow from "../../multimedia/projects/wilson.jpg";
+import code from "../../multimedia/icons/code.png";
+import group from "../../multimedia/icons/group.png";
+import single from "../../multimedia/icons/single.png";
 
 function Projects() {
   return (
     <>
       <main className="projectsMain">
         <div className="projectsMain__projectsBox">
-          <p className="projectsMain__projectsTitle">GRUPALES</p>
           <ul className="projectsList">
             <li className="projectsList__projectsElement">
               <a
@@ -29,23 +31,30 @@ function Projects() {
                   alt="Proyecto FEncoders"
                 />
               </a>
-              <button className="projectsList__projectsButton">
-                <a
-                  className="projectsLinks"
-                  href="https://github.com/MiriamPoveda/FEncoders"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Repositorio
-                </a>
-              </button>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Veritatis eum quod aliquid totam reiciendis corrupti est rerum
-                sint quam. Magnam libero accusamus praesentium quasi itaque,
-                iure voluptatum atque recusandae? Harum!
-              </p>
+              <div className="projectsIconsBox">
+                <span className="projectsList__projectsItem">
+                  <a
+                    className="projectsLinks"
+                    title="Repositorio"
+                    href="https://github.com/MiriamPoveda/FEncoders"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img
+                      className="projectsLinks__projectsCode"
+                      src={code}
+                      alt="Código"
+                    />
+                  </a>
+                </span>
+                <img
+                  className="projectsLinks__projectsGroup"
+                  src={group}
+                  alt="Proyecto grupal"
+                />
+              </div>
             </li>
+
             <li className="projectsList__projectsElement">
               <a
                 href="https://miriampoveda.github.io/AwesomeProfileCards/"
@@ -59,22 +68,28 @@ function Projects() {
                   alt="Proyecto Awesome Profile Cards"
                 />
               </a>
-              <button className="projectsList__projectsButton">
-                <a
-                  className="projectsLinks"
-                  href="https://github.com/MiriamPoveda/AwesomeProfileCards"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Repositorio
-                </a>
-              </button>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Veritatis eum quod aliquid totam reiciendis corrupti est rerum
-                sint quam. Magnam libero accusamus praesentium quasi itaque,
-                iure voluptatum atque recusandae? Harum!
-              </p>
+              <div className="projectsIconsBox">
+                <span className="projectsList__projectsItem">
+                  <a
+                    className="projectsLinks"
+                    title="Repositorio"
+                    href="https://github.com/MiriamPoveda/AwesomeProfileCards"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img
+                      className="projectsLinks__projectsCode"
+                      src={code}
+                      alt="Código"
+                    />
+                  </a>
+                </span>
+                <img
+                  className="projectsLinks__projectsGroup"
+                  src={group}
+                  alt="Proyecto grupal"
+                />
+              </div>
             </li>
             <li className="projectsList__projectsElement">
               <a
@@ -89,25 +104,30 @@ function Projects() {
                   alt="Proyecto Refactorizadas"
                 />
               </a>
-              <button className="projectsList__projectsButton">
-                <a
-                  className="projectsLinks"
-                  href="https://github.com/MiriamPoveda/Refactorizadas"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Repositorio
-                </a>
-              </button>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Veritatis eum quod aliquid totam reiciendis corrupti est rerum
-                sint quam. Magnam libero accusamus praesentium quasi itaque,
-                iure voluptatum atque recusandae? Harum!
-              </p>
+              <div className="projectsIconsBox">
+                <span className="projectsList__projectsItem">
+                  <a
+                    className="projectsLinks"
+                    title="Repositorio"
+                    href="https://github.com/MiriamPoveda/Refactorizadas"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img
+                      className="projectsLinks__projectsCode"
+                      src={code}
+                      alt="Código"
+                    />
+                  </a>
+                </span>
+                <img
+                  className="projectsLinks__projectsGroup"
+                  src={group}
+                  alt="Proyecto grupal"
+                />
+              </div>
             </li>
           </ul>
-          <p className="projectsMain__projectsTitle">INDIVIDUALES</p>
           <ul className="projectsList">
             <li className="projectsList__projectsElement">
               <a
@@ -122,22 +142,28 @@ function Projects() {
                   alt="Proyecto Open Spaces"
                 />
               </a>
-              <button className="projectsList__projectsButton">
-                <a
-                  className="projectsLinks"
-                  href="https://github.com/MiriamPoveda/OpenSpaces"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Repositorio
-                </a>
-              </button>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Veritatis eum quod aliquid totam reiciendis corrupti est rerum
-                sint quam. Magnam libero accusamus praesentium quasi itaque,
-                iure voluptatum atque recusandae? Harum!
-              </p>
+              <div className="projectsIconsBox">
+                <span className="projectsList__projectsItem">
+                  <a
+                    className="projectsLinks"
+                    title="Repositorio"
+                    href="https://github.com/MiriamPoveda/OpenSpaces"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img
+                      className="projectsLinks__projectsCode"
+                      src={code}
+                      alt="Código"
+                    />
+                  </a>
+                </span>
+                <img
+                  className="projectsLinks__projectsSingle"
+                  src={single}
+                  alt="Proyecto individual"
+                />
+              </div>
             </li>
             <li className="projectsList__projectsElement">
               <a
@@ -152,22 +178,28 @@ function Projects() {
                   alt="Proyecto Cocktails Finder"
                 />
               </a>
-              <button className="projectsList__projectsButton">
-                <a
-                  className="projectsLinks"
-                  href="https://github.com/MiriamPoveda/CocktailsFinder"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Repositorio
-                </a>
-              </button>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Veritatis eum quod aliquid totam reiciendis corrupti est rerum
-                sint quam. Magnam libero accusamus praesentium quasi itaque,
-                iure voluptatum atque recusandae? Harum!
-              </p>
+              <div className="projectsIconsBox">
+                <span className="projectsList__projectsItem">
+                  <a
+                    className="projectsLinks"
+                    title="Repositorio"
+                    href="https://github.com/MiriamPoveda/CocktailsFinder"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img
+                      className="projectsLinks__projectsCode"
+                      src={code}
+                      alt="Código"
+                    />
+                  </a>
+                </span>
+                <img
+                  className="projectsLinks__projectsSingle"
+                  src={single}
+                  alt="Proyecto individual"
+                />
+              </div>
             </li>
             <li className="projectsList__projectsElement">
               <a
@@ -182,22 +214,28 @@ function Projects() {
                   alt="Proyecto Owen Wilson WOW"
                 />
               </a>
-              <button className="projectsList__projectsButton">
-                <a
-                  className="projectsLinks"
-                  href="https://github.com/MiriamPoveda/OwenWilsonWow"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Repositorio
-                </a>
-              </button>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Veritatis eum quod aliquid totam reiciendis corrupti est rerum
-                sint quam. Magnam libero accusamus praesentium quasi itaque,
-                iure voluptatum atque recusandae? Harum!
-              </p>
+              <div className="projectsIconsBox">
+                <span className="projectsList__projectsItem">
+                  <a
+                    className="projectsLinks"
+                    title="Repositorio"
+                    href="https://github.com/MiriamPoveda/OwenWilsonWow"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img
+                      className="projectsLinks__projectsCode"
+                      src={code}
+                      alt="Código"
+                    />
+                  </a>
+                </span>
+                <img
+                  className="projectsLinks__projectsSingle"
+                  src={single}
+                  alt="Proyecto individual"
+                />
+              </div>
             </li>
           </ul>
         </div>

@@ -13,6 +13,9 @@
     width: 80vw;
 
     @media all and (min-width: 768px) {
+      width: 50vw;
+    }
+    @media all and (min-width: 1000px) {
       width: 30vw;
     }
   }
@@ -32,6 +35,13 @@
   font-weight: 700;
   font-size: 1.3em;
   font-family: $homeLetters;
+
+  @media all and (min-width: 768px) {
+    font-size: 1.5em;
+  }
+  @media all and (min-width: 1000px) {
+    font-size: 1.3em;
+  }
 }
 
 .headerLinks:hover {

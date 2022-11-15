@@ -2,7 +2,7 @@
 import MainDetails from "../specifics/MainDetails";
 import Footer from "../global/Footer";
 /* Multimedia */
-import me from "../../multimedia/me.png";
+import me from "../../multimedia/personal/me.png";
 
 function AboutMe() {
   return (

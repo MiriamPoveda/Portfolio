@@ -2,7 +2,7 @@
 import MainDetails from "../specifics/MainDetails";
 import Footer from "../global/Footer";
 /* Multimedia */
-import CV from "../../multimedia/MiriamPoveda.pdf";
+import CV from "../../multimedia/personal/MiriamPoveda.pdf";
 
 function Contact() {
   return (

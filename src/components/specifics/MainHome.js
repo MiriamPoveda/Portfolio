@@ -1,5 +1,5 @@
 /* Multimedia */
-import trailer from "../../multimedia/trailer.mp4";
+import trailer from "../../multimedia/wallpaper/trailer.mp4";
 
 function MainHome() {
   return (

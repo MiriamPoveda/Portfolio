@@ -1,5 +1,5 @@
 /* Multimedia */
-import logo from "../../multimedia/logo.png";
+import logo from "../../multimedia/global/logo.png";
 
 function Footer() {
   return (

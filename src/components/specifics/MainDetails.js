@@ -1,5 +1,5 @@
 /* Multimedia */
-import background from "../../multimedia/background.gif";
+import background from "../../multimedia/wallpaper/background.gif";
 
 function MainDetails() {
   return (
