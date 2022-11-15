@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "./static/css/main.c2109248.css",
+    "main.js": "./static/js/main.d8b08b5a.js",
+    "static/media/trailer.mp4": "./static/media/trailer.2a1f0d49c3681c249a21.mp4",
+    "static/media/background.gif": "./static/media/background.9479dfb5378e4e896867.gif",
+    "static/media/me.png": "./static/media/me.3a03903d5891a536fa15.png",
+    "static/media/MiriamPoveda.pdf": "./static/media/MiriamPoveda.ef3d64eca5bb806bd645.pdf",
+    "static/media/logo.png": "./static/media/logo.3144bbce01d8a2f12b52.png",
+    "static/media/wilson.jpg": "./static/media/wilson.981e238ce03e1f558952.jpg",
+    "static/media/cards.jpg": "./static/media/cards.813a3d1c388d06151bee.jpg",
+    "static/media/fencoders.jpg": "./static/media/fencoders.c7c20d3d807332b5fd7b.jpg",
+    "static/media/cocktails.jpg": "./static/media/cocktails.38a71fd7fe97b3ee273d.jpg",
+    "static/media/spaces.jpg": "./static/media/spaces.e34ffae013ba722fb298.jpg",
+    "static/media/refactored.jpg": "./static/media/refactored.e6e20bcb78241ea823ef.jpg",
+    "static/media/home.png": "./static/media/home.e3a48cc6deeddb1348c1.png",
+    "static/media/group.png": "./static/media/group.e8267d7ecc2072c47ccc.png",
+    "static/media/single.png": "./static/media/single.f48b74e4493484b3a636.png",
+    "static/media/code.png": "./static/media/code.ea6c4a4abb3e6f9d3cf8.png",
+    "index.html": "./index.html",
+    "main.c2109248.css.map": "./static/css/main.c2109248.css.map",
+    "main.d8b08b5a.js.map": "./static/js/main.d8b08b5a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c2109248.css",
+    "static/js/main.d8b08b5a.js"
+  ]
+}
