@@ -12,14 +12,15 @@ function AboutMe() {
           <div className="meGrid">
             <img className="meInfo__mePhoto" src={me} alt="Foto de perfil" />
             <p className="meInfo__meIntroduction">
-              Cogí las maletas para introducirme en el mundo de la
+              Mi pasión por la creatividad terminó dirigiéndome hacia la
+              programación, a descubrir ese gran mundo tecnológico, todo lo que
+              podía aportarme y lo que yo podía aportar. Así que, después de
+              coger las maletas para introducirme en el mundo de la
               interpretación, donde aprendí mucho sobre cómo matizar las
-              emociones y potenciar mi espíritu más creativo. Sin embargo, al no
-              poder mantener aquella experiencia, pasé algunos años trabajando
-              en la gestión y venta de seguros. Sin olvidar esa pasión por la
-              creatividad, he decidido trasladar mi equipaje al gran mundo
-              tecnológico para poder descubrir todo lo que me aporta la
-              programación.
+              emociones y potenciar mi espíritumás creativo, me reinventé como
+              desarrolladora Front-End. En ese impasse pasé algunos años
+              trabajando en la gestión y venta de seguros pero ahora pico código
+              cada día.
             </p>
           </div>
           <div className="division">

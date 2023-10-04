@@ -1,1 +1,3 @@
-### Portfolio en construcción
+#### PORTFOLIO `en construcción constante`
+
+###### Reinventarse significa marchar desde el borde de nuestros mapas...

@@ -2,7 +2,7 @@
 import MainDetails from "../specifics/MainDetails";
 import Footer from "../global/Footer";
 /* Multimedia */
-import CV from "../../multimedia/personal/MiriamPoveda.pdf";
+import CV from "../../multimedia/personal/MiriamPovedaCV.pdf";
 
 function Contact() {
   return (
@@ -16,6 +16,14 @@ function Contact() {
             rel="noreferrer"
           >
             <i className="fa-brands fa-github-alt iconsEffectMain"></i>
+          </a>
+          <a
+            href="https://gitlab.com/MiriamPoveda"
+            title="GitLab"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <i class="fa-brands fa-gitlab iconsEffectMain"></i>
           </a>
           <a
             href="https://es.linkedin.com/in/miriampoveda"
@@ -35,7 +43,7 @@ function Contact() {
           </a>
           <a
             href={CV}
-            download="MiriamPoveda.pdf"
+            download="MiriamPovedaCV.pdf"
             title="CV en PDF"
             target="_blank"
             rel="noreferrer"

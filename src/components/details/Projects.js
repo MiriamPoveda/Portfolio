@@ -5,7 +5,7 @@ import Footer from "../global/Footer";
 import fencoders from "../../multimedia/projects/fencoders.jpg";
 import cards from "../../multimedia/projects/cards.jpg";
 import refactored from "../../multimedia/projects/refactored.jpg";
-import spaces from "../../multimedia/projects/spaces.jpg";
+import spells from "../../multimedia/projects/spells.jpg";
 import cocktails from "../../multimedia/projects/cocktails.jpg";
 import wow from "../../multimedia/projects/wilson.jpg";
 import code from "../../multimedia/icons/code.png";
@@ -131,42 +131,6 @@ function Projects() {
           <ul className="projectsList">
             <li className="projectsList__projectsElement">
               <a
-                href="https://miriampoveda.github.io/OpenSpaces/"
-                title="Open Spaces"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <img
-                  className="projectsList__projectsImages"
-                  src={spaces}
-                  alt="Proyecto Open Spaces"
-                />
-              </a>
-              <div className="projectsIconsBox">
-                <span className="projectsList__projectsItem">
-                  <a
-                    className="projectsLinks"
-                    title="Repositorio"
-                    href="https://github.com/MiriamPoveda/OpenSpaces"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <img
-                      className="projectsLinks__projectsCode"
-                      src={code}
-                      alt="Código"
-                    />
-                  </a>
-                </span>
-                <img
-                  className="projectsLinks__projectsSingle"
-                  src={single}
-                  alt="Proyecto individual"
-                />
-              </div>
-            </li>
-            <li className="projectsList__projectsElement">
-              <a
                 href="https://miriampoveda.github.io/CocktailsFinder/"
                 title="Cocktails Finder"
                 target="_blank"
@@ -220,6 +184,42 @@ function Projects() {
                     className="projectsLinks"
                     title="Repositorio"
                     href="https://github.com/MiriamPoveda/OwenWilsonWow"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img
+                      className="projectsLinks__projectsCode"
+                      src={code}
+                      alt="Código"
+                    />
+                  </a>
+                </span>
+                <img
+                  className="projectsLinks__projectsSingle"
+                  src={single}
+                  alt="Proyecto individual"
+                />
+              </div>
+            </li>
+            <li className="projectsList__projectsElement">
+              <a
+                href="https://through-spells.web.app/"
+                title="Through Spells"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  className="projectsList__projectsImages"
+                  src={spells}
+                  alt="Proyecto Through Spells"
+                />
+              </a>
+              <div className="projectsIconsBox">
+                <span className="projectsList__projectsItem">
+                  <a
+                    className="projectsLinks"
+                    title="Repositorio"
+                    href="https://gitlab.com/MiriamPoveda/throughspells"
                     target="_blank"
                     rel="noreferrer"
                   >
